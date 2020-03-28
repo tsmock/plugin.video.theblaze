@@ -1,0 +1,16 @@
+image: python
+#
+#############################
+# Various additional Checks #
+#############################
+include:
+  - template: Code-Quality.gitlab-ci.yml
+  - template: SAST.gitlab-ci.yml
+  - template: Dependency-Scanning.gitlab-ci.yml
+
+test:
+  script:
+    - pip install kodi-addon-checker black flake8
+    - black . --check
+    - flake8 .
+    - kodi-addon-checker . --branch=leia

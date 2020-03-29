@@ -22,7 +22,7 @@ msgid "400x224 600K"
 msgstr ""
 
 msgctxt "#30003"
-msgid "HLS(m3u8) - Moble"
+msgid "HLS(m3u8) - Mobile"
 msgstr ""
 
 msgctxt "#30004"
@@ -52,8 +52,6 @@ msgstr ""
 msgctxt "#30010"
 msgid "400x224 500K"
 msgstr ""
-
-#empty string with id 30011
 
 msgctxt "#30012"
 msgid "HLS(m3u8) 720p"
@@ -86,8 +84,6 @@ msgstr ""
 msgctxt "#30019"
 msgid "Highlights Quality"
 msgstr ""
-
-#empty string with id 30020
 
 msgctxt "#30021"
 msgid "Enable Subscription Content"
